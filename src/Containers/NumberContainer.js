@@ -20,17 +20,12 @@ const NumberContainer = (props) => {
             </Row>
             <Row>
                 <Col></Col>
-
                 <Number ></Number>
-
                 <Col></Col>
             </Row>
         </Container>
-
-
     )
 }
-
 //redux space
 const mapStateToProps = state =>{
     return {
@@ -46,5 +41,4 @@ const mapDispatchToProps = dispatch =>{
 
     }
 }
-
 export default connect(mapStateToProps,mapDispatchToProps)(NumberContainer);

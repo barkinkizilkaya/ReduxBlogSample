@@ -17,7 +17,6 @@ const Number = (props) => {
     );
 }
 
-
 const mapStateToProps = state =>{
     return{
        prb:state.count

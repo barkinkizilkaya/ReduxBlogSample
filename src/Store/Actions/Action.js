@@ -1,7 +1,6 @@
 import react from 'react';
 import * as ActionTypes from '../Actions/ActionTypes';
 
-
 export const Add = (val) =>{
     return{
         type:ActionTypes.ADD,
